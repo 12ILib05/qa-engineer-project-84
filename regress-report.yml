@@ -14,27 +14,27 @@ test-cases:
 
   - summary: |
       Проверка поиска товара по ключевому слову
-    status: pas
+    status: pass
   
   - summary: |
       Проверка поиска товара по категории
-    status: pas
+    status: pass
   
   - summary: |
       Проверка просмотра информации о выбранном товаре
-    status: pas
+    status: pass
   
   - summary: |
       Проверка добавления товара в корзину с главной страницы
-    status: pas
+    status: pass
   
   - summary: |
       Проверка добавления товара в корзину из карточки товара
-    status: pas
+    status: pass
   
   - summary: |
       Проверка просмотра содержимого корзины
-    status: pas
+    status: pass
   
   - summary: |
       Проверка удаления содержимого корзины
@@ -42,7 +42,7 @@ test-cases:
   
   - summary: |
       Проверка удаления отдельного товара из корзины
-    status: pas
+    status: pass
 
 
 bugreports:
