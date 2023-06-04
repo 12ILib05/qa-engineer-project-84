@@ -2,91 +2,91 @@
 test-cases:
   - summary: |
     Проверка поиска товара по ключевому слову
-    status: pass
+  status: pass
   
   - summary: |
     Проверка поиска товара по ключевому слову, которого нет в магазине
-    status: fail
+  status: fail
   
   - summary: |
     Проверка поиска товара по категории
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтрации товара по цене до
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтрации товара по цене от
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтрации товара по цене
-    status: fail
+  status: fail
   
   - summary: |
     Проверка просмотра информации о выбранном товаре
-    status: pass
+  status: pass
   
   - summary: |
     Проверка добавления товара в корзину с главной страницы
-    status: pass
+  status: pass
   
   - summary: |
     Проверка добавления товара в корзину из карточки товара
-    status: pass
+  status: pass
   
   - summary: |
     Проверка отображения разных товаров в корзине
-    status: pass
+  status: pass
   
   - summary: |
     Проверка отображения одинаковых товаров в корзине
-    status: pass
+  status: pass
   
   - summary: |
     Проверка удаления содержимого корзины
-    status: pass
+  status: pass
   
   - summary: |
     Проверка удаления отдельного товара из корзины
-    status: pass
+  status: pass
   
   - summary: |
     Проверка возможности оформления заказа
-    status: pass
+  status: pass
   
   - summary: |
     Проверка навигации по страницам каталога
-    status: pass
+  status: pass
   
   - summary: |
     Проверка навигации по страницам каталога
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтра по наличию
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтра по наличию
-    status: fail
+  status: fail
   
   - summary: |
     Проверка хэштег с переходом в категорию
-    status: fail
+  status: fail
   
   - summary: |
     Проверка изменения языка с английского на русский
-    status: pass
+  status: pass
   
   - summary: |
     Проверка фильтрации товара по цвету
-    status: fail
+  status: fail
   
   - summary: |
     Проверка фильтрации товара по размеру
-    status: fail
+  status: fail
 
 bugreports:
   - summary: |
