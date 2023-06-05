@@ -91,62 +91,62 @@ test-cases:
 bugreports:
   - summary: |
       После фильтрации товара по цене в результате поиска криво отображается верстка 
-    environment: |
+  environment: |
       Google Chrome   113.0.5672.93 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+  steps-to-reproduce: |
        1. Выбрать категорию товара
        2. Ввести диапазон цен
-    expected-result: |
+  expected-result: |
       Получаем выборку товаров, соответствующих введенному диапазону цен
-    actual-result: |
+  actual-result: |
       Выборка товаров соотвествует диапазону, но верстка отображается криво
       Ошибка изображена на скриншоте Screenshot_2.png
 
  - summary: |
       После фильтрации товара по цене в результате поиска криво отображается верстка 
-    environment: |
+  environment: |
       Google Chrome   113.0.5672.93 (Официальная сборка) (64 бит)
       ОС Windows 10
-    steps-to-reproduce: |
+ steps-to-reproduce: |
        1. Выбрать категорию товара
        2. Ввести диапазон цен
-    expected-result: |
+ expected-result: |
       Получаем выборку товаров, соответствующих введенному диапазону цен
-    actual-result: |
+ actual-result: |
       Выборка товаров соотвествует диапазону, но верстка отображается криво
 
  - summary: |
       Проверка удаления содержимого корзины
-    environment: |
+ environment: |
       Google Chrome   113.0.5672.93 (Официальная сборка) (64 бит)
       ОС Windows 10
-    requirement: |
+ requirement: |
       При нажатии на кнопку "Clear cart" происходит удаление всего содержимого корзины
-    prerequisites: В корзину добавлены товары
-    steps-to-reproduce: |
+ prerequisites: В корзину добавлены товары
+ steps-to-reproduce: |
       1. Нажимаем на кнопку "Clear cart"
       2. Возвращаемся на главную страницу магазина через кнопку "Store"
       3. Переходим снова в корзину
-    expected-result: |
+ expected-result: |
       Все товары, которые были в корзине, удалены
-    actual-result: |
+ actual-result: |
       Товары все еще сохраняются в корзине
 
  - summary: |
       Проверка удаления содержимого корзины
-    environment: |
+ environment: |
       Google Chrome   113.0.5672.93 (Официальная сборка) (64 бит)
       ОС Windows 10
-    requirement: |
+ requirement: |
       При нажатии на кнопку "Clear cart" происходит удаление всего содержимого корзины
-    prerequisites: В корзину добавлены товары
-    steps-to-reproduce: |
+ prerequisites: В корзину добавлены товары
+ steps-to-reproduce: |
       1. Нажимаем на кнопку "Clear cart"
       2. Возвращаемся на главную страницу магазина через нажатие на логотип
       3. Обновляем страницу
       3. Переходим снова в корзину
-    expected-result: |
+ expected-result: |
       Все товары, которые были в корзине, удалены
-    actual-result: |
+ actual-result: |
       Товары все еще сохраняются в корзине
