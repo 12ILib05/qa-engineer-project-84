@@ -5,6 +5,10 @@ test-cases:
 status: pass
 
 - summary: |
+    Проверка поиска товара по ключевому слову, которого нет в магазине
+status: fail
+
+- summary: |
     Проверка поиска товара по категории
 status: pass
   
